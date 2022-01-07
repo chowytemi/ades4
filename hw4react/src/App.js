@@ -40,7 +40,7 @@ function Add(props) {
           type="text"
           value={phoneNo}
           onChange={function (e) {
-            setName(e.target.value);
+            setPhoneNo(e.target.value);
           }}
         />
         <br></br>
